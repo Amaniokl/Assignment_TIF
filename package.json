@@ -1,0 +1,27 @@
+{
+  "name": "the_internet_folks",
+  "version": "1.0.0",
+  "description": "Assignment for Internet Folks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Ritik Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@theinternetfolks/snowflake": "^1.3.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.1",
+    "slugify": "^1.6.6"
+  }
+}
